@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane prefHeight="473.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polito.tdp.imdb.FXMLController">
+<BorderPane prefHeight="473.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polito.tdp.imdb.FXMLController">
    <top>
       <Label text="Simulazione d'esame 10/06/2020" BorderPane.alignment="CENTER">
          <BorderPane.margin>
@@ -40,12 +40,12 @@
                         <Insets right="20.0" />
                      </GridPane.margin>
                   </Button>
-                  <Button fx:id="btnSimili" mnemonicParsing="false" onAction="#doAttoriSimili" prefWidth="200.0" text="Attori Simili" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                  <Button fx:id="btnSimili" disable="true" mnemonicParsing="false" onAction="#doAttoriSimili" prefWidth="200.0" text="Attori Simili" GridPane.columnIndex="2" GridPane.rowIndex="1">
                      <GridPane.margin>
                         <Insets right="20.0" />
                      </GridPane.margin>
                   </Button>
-                  <Button fx:id="btnSimulazione" mnemonicParsing="false" onAction="#doSimulazione" prefWidth="200.0" text="Simulazione" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                  <Button fx:id="btnSimulazione" disable="true" mnemonicParsing="false" onAction="#doSimulazione" prefWidth="200.0" text="Simulazione" GridPane.columnIndex="2" GridPane.rowIndex="2">
                      <GridPane.margin>
                         <Insets right="20.0" />
                      </GridPane.margin>
